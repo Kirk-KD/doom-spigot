@@ -1,0 +1,35 @@
+worlds:
+  world:
+    game: true
+    spawn:
+      x: -3
+      y: 70
+      z: -85
+
+  world_spaceship:
+    game: false
+    spawn:
+      x: 0
+      y: 101
+      z: 0
+
+rooms:
+  room_church:
+    door_1:
+      self:
+        x: 0
+        y: 0
+        z: 16
+      dir:
+        x: -1
+        y: 0
+        z: 0
+    door_2:
+      self:
+        x: 19
+        y: 0
+        z: 5
+      dir:
+        x: 1
+        y: 0
+        z: 0

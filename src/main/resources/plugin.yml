@@ -1,0 +1,15 @@
+name: doom
+version: '${project.version}'
+main: com.github.kirkkd.doom.Doom
+api-version: 1.19
+
+commands:
+  dsummon:
+    description: Summon a Doom mob.
+    usage: /<command>
+  warp:
+    description: Warp to a world.
+    usage: /<command>
+  placestructure:
+    description: Place a structure.
+    usage: /<command> structure x y z
